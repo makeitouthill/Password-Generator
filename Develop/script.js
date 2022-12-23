@@ -13,12 +13,30 @@ function promptUser(){
   includeSpecial = confirm("Include Special Characters?:")
 }
 
+function validEntry(){
+if(pwLength < 8 || pwLength > 128){
+  alert("Password length must be between 8 and 128 characters!");
+    return false;
+}
+  if (!includeLowercase && !includeUppercase && !includeNumbers
+  && !includeSpecial){
+    alert("Must select atleast one character type to include in the password!");
+    return false;
+   } 
+   return true;
+}
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
+  var password = generatePassword(){
+    if (validEntry === true) {
+      generatePassword.passwordText
+      
+    }
+  };
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
