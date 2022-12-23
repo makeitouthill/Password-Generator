@@ -9,7 +9,7 @@ var upperCases = Array.from("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 var numbers = Array.from("1234567890");
 var specials = Array.from("!@#$%^&*?");
 
-function promptUser() {
+function user{
   pwLength = parseInt(prompt("Enter Password Length (8-128 Characters):"));
   includeLowercase = confirm("Include Lowercase characters?");
   includeUppercase = confirm("Include Uppercase characters?");
