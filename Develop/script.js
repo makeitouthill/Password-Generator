@@ -1,5 +1,9 @@
 // Assignment code here
-
+var pwLength;
+var includeLowercase;
+var includeUppercase;
+var includeNumbers;
+var includeSpecial;
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
