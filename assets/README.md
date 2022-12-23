@@ -1,6 +1,6 @@
-# Password Generator Starter Code
-# Your Project Title 
 
+# Your Project Title 
+Password Genrator
 ## Technology Used 
 
 | Technology Used         | Resource URL           | 
